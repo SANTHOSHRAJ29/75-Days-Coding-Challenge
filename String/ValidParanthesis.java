@@ -24,6 +24,5 @@ public class ValidParanthesis {
         } else {
             System.out.println("false");
         }
-        sc.close();
     }
 }
