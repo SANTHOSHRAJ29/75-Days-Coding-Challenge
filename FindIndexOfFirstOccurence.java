@@ -1,4 +1,3 @@
-package String;
 import java.util.*; 
 public class FindIndexOfFirstOccurence {
     public static int strStr(String haystack, String needle) {
