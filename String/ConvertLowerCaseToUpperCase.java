@@ -1,6 +1,6 @@
 package String;
 import java.util.*;
-public class ConverUpperCaseToLowerCase {
+public class ConvertLowerCaseToUpperCase {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
@@ -8,11 +8,11 @@ public class ConverUpperCaseToLowerCase {
         String result = "";
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if (ch >= 'A' && ch <= 'Z') {
-                ch = (char) (ch + 32);
+            if (ch >= 'a' && ch <= 'z') {
+                ch = (char) (ch - 32);
             }
             result = result + ch;
         }
-        System.out.println("Lowercase = " + result);
+        System.out.println("Uppercase = " + result);
     }
 }
